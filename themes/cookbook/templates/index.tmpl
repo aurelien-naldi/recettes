@@ -1,0 +1,40 @@
+## -*- coding: utf-8 -*-
+<%namespace name="helper" file="index_helper.tmpl"/>
+<%namespace name="comments" file="comments_helper.tmpl"/>
+<%inherit file="base.tmpl"/>
+
+<%block name="extra_head">
+    ${parent.extra_head()}
+    % if posts and (permalink == '/' or permalink == '/' + index_file):
+        <link rel="prefetch" href="${posts[0].permalink()}" type="text/html">
+    % endif
+</%block>
+
+<%block name="content">
+<%block name="content_header"></%block>
+% if 'main_index' in pagekind:
+    ${front_index_header}
+% endif
+<div class="postindex">
+% for post in posts:
+    <a href="${post.permalink()}" class="u-url">
+    <article class="h-entry post-${post.meta('type')}">
+    <header>
+        <h1 class="p-name entry-title">${post.title()|h}</h1>
+    </header>
+    <div class="preview">
+    % if post.previewimage:
+        <img src="${post.previewimage}" alt="${post.description()}" />
+    % else:
+        ${post.description()}
+    % endif
+    </div>
+    </article>
+    </a>
+% endfor
+<hr class="end" />
+</div>
+${helper.html_pager()}
+${comments.comment_link_script()}
+${helper.mathjax_script(posts)}
+</%block>

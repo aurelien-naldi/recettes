@@ -1,0 +1,41 @@
+
+= annotations
+
+* temps
+* difficulté
+* saison
+
+
+= Sections
+
+= tartes salées
+
+* quiche
+* tarte a la tomate
+* tarte aux poireaux
+
+
+== Condiments
+
+
+== Tartes sucrées
+
+* Tarte aux pommes (Sophie)
+* Tarte amandine
+
+== Gateaux
+
+* cakes aux fruits
+* carrot cake
+
+
+
+= Crepes and co
+
+* crepes
+* gauffres
+* pancakes
+* dorayakis
+* blinis
+
+
