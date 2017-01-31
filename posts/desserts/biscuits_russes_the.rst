@@ -7,14 +7,14 @@
 .. previewimage: 
 
 
-* 1 cup of butter
-* 1/2 cup confectioners’ sugar
-* 1 tsp. of vanilla extract
-* 2 1/4 cups of flour
-* 1/4 tsp. of salt
-* 3/4 cup of finely chopped nuts
+* 1 coupe de beurre
+* 1/2 coupe de sucre glace
+* 1 tsp d'extrait de vanille
+* 2 1/4 coupes de farine
+* 1/4 tsp. de sel
+* 3/4 coupe de noisettes finement mixées
 
-
-Chill dough. Roll into 1 inch balls and put in the oven at 325F for 12 minutes. They are ready when they show slight cracks on top, before they brown!
+Petrir la préparation. rouler en boules de 1.5 cm et placer au four 170C pendant 12 minutes.
+Les biscuits sont prets lorsqu'ils craquellent sur le dessus, avant de brunir.
 
 
