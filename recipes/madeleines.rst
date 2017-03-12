@@ -3,24 +3,25 @@
 .. tags: 
 .. description: 
 
-* 2 eggs
-* 2 coffee cups of sugar (around 200 gr)
-* 2 coffee cups of olive oil
-* 2 coffee cups of milk
-* 6 coffee cups of flour (around 300 gr)
-* 2 tsp of baking powder
-* 1/4 of lemon peel, grated
-* a sprinkle of ground cinnamon
+* 2 oeufs
+* 2 coupes de sucre (200g)
+* 2 coupes d'huile d'olive
+* 2 coupes de lait
+* 6 coupes de farine (300g)
+* 2 tsp de poudre a lever
+* 1/4 de zeste de citron
+* canelle moulue
 
-If you want beautifully “mountain”-shaped madeleines, bake them in (mini) muffin pans; put the paper baking cups in the pans and then pour the dough).
-Do not open the oven while the madeleines are in (if you do, the madeleines will deflate).
 
-1. Preheat oven at 190ºC.
+Pour obtenir de belles madeleine en forme de montagne, faire cuire dans des (mini) moules à muffin;
+Ne pas ouvrir le four pendant la cuisson (sinon elles risquent de retomber).
 
-2. Beat eggs and sugar together in a large bowl. Add in oil, milk, a sprinkle of ground cinnamon, grated lemon peel, sifted flour and baking powder; mix.
+1. Prechauffer le four à 190ºC.
 
-3. Pour the dough into the individual baking cups; fill them up to 3/4. Sprinkle some sugar on the madeleines.
+2. Batter les oeufs et le sucre dans un grand bol. Ajouter l'huile d'olive, le lait, la canelle, le zeste de citron, la farine tamisée et la poudre à lever. Bien mélanger.
 
-4. Bake at 190ºC for about 25 minutes, until golden brown.
+3. Verser la préparation dans des moules individuels remplis aux 3/4. Saupoudrer avec un peu de sucre.
+
+4. Cuire à 190ºC environ 25 minutes pour obtenir une teinte brune dorée.
 
 
