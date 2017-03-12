@@ -1,0 +1,80 @@
+html,body {
+  background-color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+    width: 1200px;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0;
+    background: white;
+}
+
+.listing article, .descr {
+    display: block;
+    border: 4px solid #aaa;
+    margin: 1em 0;
+    color: black;
+    padding: 0;
+}
+.listing article .end {
+    clear: both;
+    width: 100%;
+    border: 2px solid #aaa;
+    margin: 0;
+}
+
+a .listing article, a .descr {
+    border: 2px solid #fc5;
+}
+
+.listing article {
+    width: 48%;
+}
+
+.listing article:nth-child(odd) {
+    float: left;
+    clear: both;
+}
+
+.listing article:nth-child(even) {
+    float: right;
+}
+
+.listing article img {
+    float: right;
+}
+
+
+.listing hr.end {
+    clear: both;
+}
+
+.descr > header,
+.listing article h1 {
+    background: #aaa;
+    font-size: 120%;
+    font-weight: bold;
+    padding: .1em .3em;
+    padding: 0;
+    margin: 0;
+}
+
+
+.listing article .preview {
+    width: 100%;
+    min-height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.listing article .preview img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
