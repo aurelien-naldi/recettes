@@ -9,7 +9,7 @@ function recipeBox(rcp) {
     if (rcp[4]) {
         img = "<img src='"+prefix+uid+"_thumb.jpg' />";
     }
-    box = $('<article class="item">'+img+'<a href="#'+uid+'"><h1>'+title+"</h1><p>"+descr+"</p></a></article>");
+    box = $('<a class="article" href="#'+uid+'"><article class="item">'+img+'<h1>'+title+"</h1><p>"+descr+"</p></article></a>");
     return box;
   }
 };
