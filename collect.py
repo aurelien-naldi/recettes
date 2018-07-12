@@ -1,4 +1,7 @@
-import os
+from __future__ import print_function
+from docutils import core
+from docutils.writers.html4css1 import Writer,HTMLTranslator
+import sys, os
 import json
 
 from PIL import Image
@@ -6,6 +9,23 @@ from PIL import Image
 imgsize = 800
 thumbsize = 150
 CORE_META = ["title", "description", "tags"]
+
+class HTMLFragmentTranslator( HTMLTranslator ):
+    def __init__( self, document ):
+        HTMLTranslator.__init__( self, document )
+        self.head_prefix = ['','','','','']
+        self.body_prefix = []
+        self.body_suffix = []
+        self.stylesheet = []
+    def astext(self):
+        return ''.join(self.body)
+
+html_fragment_writer = Writer()
+html_fragment_writer.translator_class = HTMLFragmentTranslator
+
+def reST_to_html( s ):
+    return core.publish_string( s, writer = html_fragment_writer )
+
 
 def load(src, output):
     files = []
@@ -18,13 +38,17 @@ def load(src, output):
         core = [uid, ] + [ parsed.get(k,"") for k in CORE_META ]
         all_meta.append( core )
         outfile = os.path.join(output, path[:-3]+"json")
+        htmlfile = os.path.join(output, path[:-3]+"html")
         parent = os.path.dirname(outfile)
         if not os.path.exists(parent):
             os.makedirs(parent)
         f = open( outfile, "w")
+        h = open( htmlfile, "wb")
         json.dump(parsed,f)
         f.write("\n")
+        h.write(reST_to_html(parsed["text"]))
         f.close()
+        h.close()
         
         # copy image and thumbnail
         imgname = os.path.join(src,"%s.jpg"%uid)
