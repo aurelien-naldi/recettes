@@ -1,0 +1,5 @@
+{{- $.Scratch.Add "index" slice -}}
+{{range .Pages }}
+    {{- $.Scratch.Add "index" (dict "title" .LinkTitle "link" .RelPermalink "date" .Date "summary" .Summary) -}}
+{{end}}
+{{- $.Scratch.Get "index" | jsonify -}}
