@@ -10,7 +10,6 @@ summary: Vert a l'interieur
 * 110g de beurre
 * 4 oeufs
 * 60g de farine (blé ou riz)
-
 * 100g de chocolat a patisserie
 * 80ml de creme liquide (d'amandes dans la recette d'origine)
 

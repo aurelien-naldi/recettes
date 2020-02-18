@@ -6,7 +6,6 @@ summary: Des fruits secs et du sucre
 
 * 400g de sucre
 * 200g d'eau
-
 * 20 feuilles de pate filo
 * 200g de beurre fondu
 * 300g de noix

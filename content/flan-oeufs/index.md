@@ -4,10 +4,10 @@ date: 2016-12-30
 summary: Flan au caramel parfumé a l'orange
 ---
 
-* 8tbsp de sucre
-* 2tbsp d'eau
+* 8 tbsp de sucre
+* 2 tbsp d'eau
 * 6 oeufs
-* 1l de lait frais entier (ou lait d'amandes)
+* 1 l de lait frais entier (ou lait d'amandes)
 * 5 tbsp de sucre
 * zest d'une orange
 

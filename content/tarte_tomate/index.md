@@ -6,7 +6,7 @@ summary: Classique etudiant
 
 * 1 pate à tarte
 * 3 tomates
-* 1 petit oignons
+* 1 petit oignon
 * 1 boite de thon
 * fromage rapé
 * 1 oeuf

@@ -15,7 +15,7 @@ Recette a verifier/ajuster
 
 Decouper et faire cuire les poireaux
 
-Ecraser les roquefort et le mélanger à la creme
+Ecraser le roquefort et le mélanger à la creme
 
 Mélanger le tout et le placer sur la pate a tarte
 
