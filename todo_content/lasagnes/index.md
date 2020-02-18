@@ -1,7 +1,7 @@
 ---
 title: Lasagnes
 date: 2016-12-07
-summary: 
+summary:  TODO
 ---
 
 Everyone knows this dish, but it is generally overengineered and the use of strong cheese overpowers the taste of the rest of the ingredients. This is a recipe I came up with according to my taste, probably the traditional Bologna (the town in Italy from which Lasagna originates) recipe is somewhat different but hey, that's as good as it gets for me. One last note: every dish is as good as the ingredients out of which it is prepared. For a Sunday dish like this, I like to go with the best.

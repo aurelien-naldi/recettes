@@ -1,5 +1,5 @@
 ---
-title: Tarte au citron
+title: Pancakes
 date: 2016-09-19
 summary: TODO
 ---
