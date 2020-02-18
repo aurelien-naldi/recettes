@@ -1,7 +1,7 @@
 ---
 title: Dahl
 date: 2016-12-07
-description: 
+summary: soupe de lentilles
 ---
 
 * half cup green (or yellow) lentils
@@ -11,7 +11,7 @@ description:
 * 1 shallot (diced)
 * ginger (about three cm worth) (diced)
 * 2 cloves garlic (diced)
-* green chillis (thin slices)*
+* green chillis (thin slices)
 * 3 tomatoes (diced well)
 * 2 cups vegetable stock
 * 1 tablespoon ground coriander seeds

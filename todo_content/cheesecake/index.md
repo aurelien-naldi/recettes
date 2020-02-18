@@ -1,7 +1,7 @@
 ---
 title: Cheesecake
 date: 2016-12-07
-description: 
+summary: cheesecake americain
 ---
 
 * 900g de "cream cheese"
