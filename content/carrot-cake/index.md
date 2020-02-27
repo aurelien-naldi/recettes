@@ -7,9 +7,9 @@ summary: Delicieux gateau aux carottes et aux épices
 * 180g de farine
 * 8g de levure
 * 4g de cannelle
-* 4g de mélange d'épices (4 épice ou mélange pain d'épice)
+* 4g de mélange d'épices (4 épices ou mélange pain d'épice)
 * 4g de sel
-* 3 œufs
+* 3 oeufs
 * 120g de sucre
 * 50g d'huile
 * 80g de compote de pommes
@@ -25,9 +25,9 @@ Puis verser l'huile en filet et ajouter la compote de pommes.
 
 Verser ce mélange dans un puit sur la farine, commencer à mélanger doucement avant d'incorporer les carottes, noix et raisins.
 
-Verser dans un moule a cake bien beurré (tapoter sur la table pour chasser les bulles d'air et bien remplir le moule)
+Verser dans un moule a cake bien beurré
 
-Cuire 55 minutes a 180°C (la lame d'un couteau doit ressortir sèche)
+Cuire 55 minutes a 180°C
 
 Laisser reposer 15 minutes avant de démouler
 
