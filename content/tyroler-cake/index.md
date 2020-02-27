@@ -4,34 +4,24 @@ date: 2016-12-14
 summary: Cake aux noisettes et au chocolat
 ---
 
-Ingrédients : (pour un moule de 28 cm de diamètre)
-
 * 250g de poudre de noisettes
-* 200g de sucre en poudre
-* 150g de chocolat
+* 120g de sucre en poudre
+* 150g de pépites de chocolat
 * 120g de farine
 * 100g de beurre
 * 4 oeufs (200g)
 * 10 cl de lait
 * 5cl de rhum (facultatif)
 * 1 sachet (8g) de levure chimique
+* une pincée de sel
 
+Melanger la farine, la levure, la poudre de noisettes et le sel
 
-Dans un saladier, mélanger le beurre mou avec le sucre.
-Ajouter les jaunes d'oeufs et melanger pour obtenir une pate lisse
+Dans un autre récipient, mélanger les oeufs avec le sucre.
+Incorporer le lait, le beurre fondu et le rhum
 
-Ajouter le lait, la poudre de noisette, la farine et la levure chimique.
-La pâte doit être assez épaisse.
-
-Montez les blancs en neige bien ferme et incorporez-les délicatement à la pâte
-
-Versez la pâte dans un grand moule à gâteau, préalablement beurré et fariné.
+Verser cette préparation sur la farine et bien mélanger.
+Incorporer les pépites de chocolat.
 
 Cuisson : 40 mn à 180°.
-Le gâteau doit être bien doré. Laissez-le refroidir sur une grille.
-
-
-Sources:
-http://www.evacuisine.fr/archives/2012/06/04/24188390.html
-https://www.bettybossi.ch/fr/Rezept/ShowRezept/BB_KUCA130802_0196A-160-fr
 

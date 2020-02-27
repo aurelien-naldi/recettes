@@ -20,7 +20,7 @@ Melanger la farine et la levure.
 Dans un autre recipient, battre les oeufs, l'huile et le lait.
 Saler et poivrer cette préparation.
 
-Verser sur la farinei, ajouter l'emmental et commencer a mélanger.
+Verser sur la farine, ajouter l'emmental et commencer a mélanger.
 
 Incorporer le roquefort et les poires en morceau, ainsi que les noix.
 
