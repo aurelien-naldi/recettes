@@ -1,7 +1,7 @@
 ---
 title: Pate a crepes
 date: 2016-09-18
-summary: Pate classique au blé noir
+summary: Pate classique au froment
 ---
 
 * 4 oeufs
