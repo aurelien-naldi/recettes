@@ -1,7 +1,7 @@
 ---
 title: Choux de Bruxelles à la moutarde
 date: 2020-02-25
-summary: Choux de Bruxelle dans une sauce à la moutarde et au brie
+summary: Choux de Bruxelles dans une sauce à la moutarde et au brie
 ---
 
 * 300g de choux de Bruxelles
@@ -10,10 +10,14 @@ summary: Choux de Bruxelle dans une sauce à la moutarde et au brie
 * 100g de lardons
 * 1 oignon
 
-Cuire les choux de bruxelles à la vapeur et reserver.
+
+**TODO: vérifier les proportions**
+
+
+Cuire les choux de bruxelles à la vapeur (5 minutes sous pression) et réserver.
 
 Faire revenir l'oignon et les lardons.
 
-Ajouter le brie et la moutarde, bien mélanger et ajouter les choux
+Ajouter le brie et la moutarde, bien mélanger et ajouter les choux.
 
 
