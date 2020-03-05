@@ -14,7 +14,7 @@ summary: Choux de Bruxelles dans une sauce à la moutarde et au brie
 **TODO: vérifier les proportions**
 
 
-Cuire les choux de bruxelles à la vapeur (5 minutes sous pression) et réserver.
+Cuire les choux de bruxelles à la vapeur (4 minutes sous pression) et réserver.
 
 Faire revenir l'oignon et les lardons.
 
