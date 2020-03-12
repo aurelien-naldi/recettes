@@ -1,177 +1,26 @@
+{{ define "extra_head" }}
+{{ $code := resources.Get "js/repository.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $code.Permalink }}"></script>
+{{- end }}
+
 {{ define "main" }}
 <section>
-<div class="content" id="repository">This page requires javascript...</div>
+<div class="content" id="repository">La liste des recettes a besoin de javascript...</div>
 <script>
 
-function request_data(target, type, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.responseType = type;
-    xhr.onreadystatechange = function () {
-          if (xhr.readyState == 4 && xhr.status == "200") {
-            callback(xhr.response);
-          }
-    };
-    xhr.open('GET', target, true);
-    xhr.send(null);  
+function matches_filter(entry, regexp) {
+    return  entry.title.search(regexp) >= 0 ||
+            entry.summary.search(regexp) >= 0;
 }
 
-function make_link(parent, text, fn) {
-    var link = document.createElement('a');
-    link.href="#";
-    link.onclick = fn;
-    link.innerHTML = text;
-    parent.append(link);
-    parent.append(document.createTextNode(" "));
+function format_entry(entry) {
+    info = document.createElement("p")
+    info.innerHTML = '<a href="'+entry.link+'"><b>'+entry.title+"</b></a>"+
+        '<br/><!--<time datetime="'+entry.date+'">' + entry.date + '</time>-->' +
+         "<span class='description'>"+entry.summary+"</span>";
+    return info;
 }
 
-class Repository {
-
-    constructor(uid, rawdata) {
-        var parent = document.getElementById(uid);
-        var handler = this;
-
-        // Page switching links
-        this.pagediv = document.createElement('div');
-        this.pagediv.classList.add("pagination");
-
-        this.data = rawdata;
-        this.timeout = 5;
-        this.paginate = 50;
-        this.page = 0;
-        this.indices = Array.from(this.data.keys());
-        this.filtered = this.indices;
-        this.in_filter = document.createElement("input");
-        this.in_filter.classList.add("filter");
-        this.in_filter.oninput = function() {
-            clearTimeout(handler.timeout);
-            handler.timeout = setTimeout(function() {handler.update_filter();}, 500);
-        };
-        this.container = document.createElement("div");
-        this.container.classList.add("repository");
-
-        parent.innerHTML = 'Filter: ';
-        parent.append(this.in_filter);
-        parent.append(this.pagediv);
-        parent.append(this.container);
-        
-        this.update_filter();
-    }
-
-
-    update_filter() {
-        this.container.innerHTML = "Updating filter";
-        if (!this.in_filter.value) {
-            this.filtered = this.indices;
-            this.fill();
-            return;
-        }
-
-        var regexp = new RegExp(this.in_filter.value, "i");
-        var filtered = new Array(0);
-        for (var m in this.data) {
-            try {
-                if (matches_filter(this.data[m], regexp)) {
-                    filtered.push(m);
-                }
-            } catch(error) {
-                alert('error: '+error);
-            }
-        }
-        this.filtered = filtered;
-        this.fill();
-    }
-
-    first_page() {
-        this.set_page(0);
-    }
-    prev_page() {
-        this.set_page(this.page-1);
-    }
-    next_page() {
-        this.set_page(this.page+1);
-    }
-    last_page() {
-        this.set_page(this.filtered.length);
-    }
-    
-    set_page(page) {
-        if (page < 0) {
-            page = 0;
-        }
-        if (page*this.paginate >= this.filtered.length) {
-            page = Math.ceil(this.filtered.length / this.paginate) - 1;
-        }
-        
-        if (page != this.page) {
-            this.page = page;
-            this.fill();
-        }
-    }
-
-    fill() {
-        var start = this.page*this.paginate;
-        var end = start + this.paginate;
-
-        // Fill the pagination div
-        var handler = this;
-        this.pagecount = Math.ceil((this.filtered.length) / this.paginate);
-        if (this.pagecount == 1) {
-            this.pagediv.innerHTML = this.filtered.length + " elements.";
-        } else {
-            this.pagediv.innerHTML = this.filtered.length + " elements (" + this.pagecount + " pages of " + this.paginate +"). ";
-
-            for (var p=0 ; p<this.pagecount ; p++) {
-                var x = p;
-                if (p == this.page) {
-                    this.pagediv.append(document.createTextNode(" [" + (p+1) + "] "));
-                } else {
-                    make_link(this.pagediv, ""+(x+1), page_func(handler, p));
-                }
-            }
-        }
-        
-        this.container.innerHTML = "";
-        for (var m of this.filtered.slice(start,end)) {
-            var model = this.data[m];
-            this.container.append(format_model(model));
-        }
-    }
-}
-
-function page_func(handler, p) {
-    return function() {
-        handler.set_page(p);
-    }
-}
-
-function matches_filter(model, regexp) {
-    if (model.title.search(regexp) >= 0) return true;
-//    if (model.taxon && model.taxon.search(regexp) >= 0) return true;
-//    if (model.process && model.process.search(regexp) >= 0) return true;
-    return false;
-}
-
-function format_model(model) {
-
-        element = document.createElement("div");
-        element.classList.add("entry");
-        info = document.createElement("p")
-        info.innerHTML = '<a href="'+model.link+'"><b>'+model.title+"</b></a>"+
-            '<br/><!--<time datetime="'+model.date+'">' + model.date + '</time>-->' +
-             "<span class='description'>"+model.summary+"</span>";
-        element.append(info);
-        
-        return element;
-}
-
-
-
-function cb(tabledata) {
-//    alert('loaded');
-    var repo = new Repository("repository", tabledata);
-}
-
-request_data('index.json', 'json', cb);
-</script>
+load_repository('index.json', 'repository');</script>
 
 {{ end }}
