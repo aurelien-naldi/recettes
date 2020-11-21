@@ -11,8 +11,8 @@ summary: Mélange de céréales croustillantes
 * 30g de farine complete
 * 1 cac de canelle
 * 1 cac de vanille en poudre
-* 40 cl d'huile
-* 20 cl de lait
+* 40 ml d'huile
+* 20 ml de lait
 * 105g de sirop:
   * 80g de sucre complet
   * 80 cl d'eau
