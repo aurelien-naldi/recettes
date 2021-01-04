@@ -82,6 +82,14 @@ header {
         header nav ul li a:hover {
           color: #d9d9d9; }
 
+.content table {
+  border-collapse: collapse; }
+  .content table th, .content table td {
+    border: 1px solid;
+    padding: .2em; }
+  .content table th {
+    background: #aaa; }
+
 a:link, a:visited {
   font-weight: bold;
   text-decoration: none;
@@ -90,14 +98,47 @@ a:link, a:visited {
 a:hover {
   color: #ffa022; }
 
-p.ref {
+.ref {
   font-size: 75%;
-  border-left: solid;
-  padding: .1em .5em; }
-  p.ref .title {
+  margin-bottom: .5em; }
+  .ref .title {
     font-weight: bold; }
-  p.ref .authors {
+  .ref .authors {
     font-style: italic; }
+  .ref .refhead {
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 1.5em; }
+  .ref .type {
+    display: block;
+    background: #333;
+    margin-right: .5em;
+    float: left;
+    width: 1.3em;
+    height: 1.3em; }
+    .ref .type img.oa {
+      height: 100%;
+      margin: 0 auto; }
+  .ref .preprint {
+    background: #bbb; }
+  .ref .review {
+    background: #7c7; }
+  .ref .article {
+    background: #d44; }
+  .ref .conference {
+    background: #44d; }
+  .ref img.pdf {
+    width: 1.2em;
+    margin: 0; }
+
+.ref.methods {
+  border-color: red; }
+
+.ref.models {
+  border-color: green; }
+
+.ref.software {
+  border-color: blue; }
 
 dl dt {
   float: left;
