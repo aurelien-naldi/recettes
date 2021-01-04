@@ -1,4 +1,4 @@
 baseURL = "http://recettes.naldi.info/"
 languageCode = "fr-fr"
 title = "Recettes"
-theme = "../../lacademic"
+theme = "gs"
