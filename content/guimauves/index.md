@@ -10,6 +10,7 @@ d'organisation et de matériel:
 robot patissier, silpats (tapis de cuisson), 2 carrés à entremet (20x20x3.5 cm), 
 thermomètre à sucre, couteau a saumon (optionel mais + pratique).
 
+Choisir un parfum acidulé (bergamotte ou kalamansi marchent bien).
 
 ## Gélatine
 
@@ -52,7 +53,7 @@ Verser en filet sur les blancs en continuant à battre doucement
 Battre la préparation à vitesse maximale pendant 15 minutes
 
 
-Verser dans les cadres posés sur un siplat
+Verser dans les cadres posés sur un silpat
 
 
 # Découpe
