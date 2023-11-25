@@ -1,4 +1,4 @@
-baseURL = "https://recettes.naldi.info/"
+baseURL = "https://recettes.naldi.fr/"
 languageCode = "fr-fr"
 title = "Recettes"
 theme = "ginsim"
